@@ -5,7 +5,7 @@ export const GAME_CONFIG: GameConfig = {
   GROUP_ID: 8,
   COST: 2.0,
   CURRENCY: "EUR",
-  STAMP_ID: Number(process.env.STAMP_ID) || 14, // Default value, override with env if availabl
+  STAMP_ID: Number(process.env.STAMP_ID) || 1, // Default value, override with env if available
 };
 
 console.log("Game configuration:", GAME_CONFIG);
