@@ -1,5 +1,5 @@
 export interface JwtPayload {
-  exp?: number; // Expiration time
+  exp?: number; // Expiration time :)
   iat?: number; // Issued at
   sub?: string; // Subject
   aud?: string; // Audience
